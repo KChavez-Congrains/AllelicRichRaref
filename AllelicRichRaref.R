@@ -29,6 +29,6 @@ AllelicRichRaref <- function(data){
   }
   allelicrich <- V
   table <- data.frame(allelicrich)
-  table$G <-c(1:maxsample)
+  table$SampleSize <-c(1:maxsample)
   table[,c(2,1)]
 }
